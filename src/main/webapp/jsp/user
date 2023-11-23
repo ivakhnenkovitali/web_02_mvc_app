@@ -10,6 +10,8 @@
    <c:when test ="${not empty us}">
    <p> Name: ${us.getFio()}</p>
    <p>Email: ${us.fio}</p>
+
+
 ___добавить код ____ 20.04
 
 
