@@ -10,7 +10,7 @@ public class DbInMemory {
     static {
 
         users.add(new User(1, "Vasia Pum", "vasia.pum@gmail.com"));
-        users.add(new User(1, "Ivan Ivanov", "van.vano@gmail.com"));
+        users.add(new User(1, "Ivan Ivanov", "ivan.vano@gmail.com"));
         users.add(new User(1, "Petr Petrov", "petruha25@gmail.com"));
 
 
