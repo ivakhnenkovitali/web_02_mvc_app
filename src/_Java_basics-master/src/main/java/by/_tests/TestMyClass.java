@@ -1,5 +1,4 @@
 package by._tests;
-
 public class TestMyClass {
     public static void main (String args[]) {
         MyClass c1 = new MyClass();
