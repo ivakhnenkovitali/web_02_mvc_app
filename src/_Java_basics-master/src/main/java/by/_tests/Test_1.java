@@ -1,9 +1,6 @@
 package by._tests;
-
 import by._java_SE._10_object.Student;
-
 import java.util.ArrayList;
-
 public class Test_1 {
     public static void main(String[] args) {
         System.out.println("1 ");
