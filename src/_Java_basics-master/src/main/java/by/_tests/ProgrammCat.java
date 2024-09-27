@@ -8,7 +8,5 @@ public class ProgrammCat {
 //        System.out.println("two ");
         int c =100;
         c++;
-
-
     }
 }
