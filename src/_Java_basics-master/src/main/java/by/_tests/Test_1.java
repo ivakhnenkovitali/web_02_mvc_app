@@ -13,8 +13,6 @@ public class Test_1 {
 //            }
 //        }
         System.out.println("3 ");
-
-
         ArrayList<Object> Object;
         ArrayList<? extends Number> numbers = new ArrayList<>();
 
