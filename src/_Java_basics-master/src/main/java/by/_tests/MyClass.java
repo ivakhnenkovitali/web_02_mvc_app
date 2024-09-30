@@ -7,5 +7,4 @@ public class MyClass {
         public void secondMethod (){
             System.out.println("Это НЕ статический метод!");
         }
-
 }
