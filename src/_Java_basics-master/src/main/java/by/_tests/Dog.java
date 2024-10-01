@@ -1,7 +1,5 @@
 package by._tests;
-
 public class Dog extends Thread{
-
     Dog(){
         System.out.println("MyThear");
     }
