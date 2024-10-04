@@ -1,12 +1,10 @@
 package by._tests;
-
 public class Test_2 {
     public static void main(String[] args) {
         long a = 100l;
         double b = 300.0;
         Object ab = a + b;
         System.out.println(ab.getClass().getName() + " value: " + ab);
-
         double c = 1000.05;
         long d = 1000;
         Object cd = c+d;
