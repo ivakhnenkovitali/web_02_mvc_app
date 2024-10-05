@@ -1,5 +1,4 @@
 package by._tests;
-
 public class ProgrammCat {
     public static void main(String[] args) {
         Cat cat = new Cat();
