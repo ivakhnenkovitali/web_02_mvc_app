@@ -5,7 +5,6 @@ public class TestMyClass {
         MyClass c1 = new MyClass();
         c1.firstMethod();
         c1.secondMethod();
-
         MyClass.firstMethod();
        // MyClass.secondMethod(); // не статик метод
     }
