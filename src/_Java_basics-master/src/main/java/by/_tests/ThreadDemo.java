@@ -1,5 +1,4 @@
 package by._tests;
-
 public class ThreadDemo extends Thread{
     @Override
     public void run() {
