@@ -1,7 +1,5 @@
 package _02_standard_inheritanse;
-
 import java.io.*;
-
 public class Main {
     public static final String PATH = "src/_02_standard_inheritanse/save.save";
     public static void main(String[] args) {
