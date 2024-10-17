@@ -1,7 +1,5 @@
 package _04_external;
-
 import java.io.*;
-
 public class Main {
     public static final String FILE = "src/_04_external/save.save";
     public static void main(String[] args) {
