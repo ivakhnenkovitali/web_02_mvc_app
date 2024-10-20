@@ -23,7 +23,6 @@ public class CatUtils {
         }
         return cats;
     }
-
     public static void printCats(List<CsvCat> cats) {
         cats.forEach(System.out::println);
     }
