@@ -1,7 +1,5 @@
 package _03_xml._01_csv.model;
-
 import lombok.*;
-
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
