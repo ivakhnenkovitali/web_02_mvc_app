@@ -4,6 +4,7 @@
         <xs:sequence>
             <xs:element name="cat" type="CsvCat" maxOccurs="unbounded"/>
         </xs:sequence>
+
     </xs:complexType>
 
     <xs:complexType name="CsvCat">
