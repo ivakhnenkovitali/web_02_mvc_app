@@ -1,14 +1,11 @@
 package _03_xml._03_sax;
-
 import org.xml.sax.SAXException;
-
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
         try {
