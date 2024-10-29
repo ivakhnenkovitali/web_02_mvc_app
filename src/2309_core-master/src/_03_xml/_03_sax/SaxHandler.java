@@ -1,20 +1,16 @@
 package _03_xml._03_sax;
-
 import _03_xml._01_csv.model.CsvCat;
 import lombok.Getter;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
-
 import java.util.ArrayList;
 import java.util.List;
-
 public class SaxHandler extends DefaultHandler {
     @Getter
     private List<CsvCat> cats;
     private CsvCat cat;
     private String tagName;
-
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
         if (qName.equals("cats")) {
@@ -27,7 +23,6 @@ public class SaxHandler extends DefaultHandler {
             tagName = qName;
         }
     }
-
     @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
         if (qName.equals("cat")) {
