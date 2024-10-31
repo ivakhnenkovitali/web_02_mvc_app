@@ -1,10 +1,7 @@
 package _03_xml._01_csv.utils;
-
 import _03_xml._01_csv.model.CsvCat;
 import lombok.experimental.UtilityClass;
-
 import java.util.Arrays;
-
 @UtilityClass
 public class CatFactory {
     public static CsvCat getInstance(String str) throws IllegalStateException {
@@ -16,7 +13,6 @@ public class CatFactory {
         var age = validateByNegative(Integer.parseInt(slitStr[2]));
         return new CsvCat(number, name, age);
     }
-
     private static void validateArrayLength(int length) {
         if(length != 3) {
             throw new IllegalStateException("Invalid line format");
