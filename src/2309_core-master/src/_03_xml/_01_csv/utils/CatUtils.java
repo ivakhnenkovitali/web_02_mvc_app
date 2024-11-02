@@ -1,15 +1,11 @@
 package _03_xml._01_csv.utils;
-
 import _03_xml._01_csv.model.CsvCat;
-
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
 public class CatUtils {
-
     public static List<CsvCat> extractFromFle() {
         var cats = new ArrayList<CsvCat>();
         try (var sc = new Scanner(new FileReader("src/_03_xml/_01_csv/cats.csv"))){
